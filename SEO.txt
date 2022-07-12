@@ -1,0 +1,9 @@
+SEO Modificaciones:
+
+1- Modifiqué la etiqueta <title>: cambié la estructura quitando el nombre del consultorio y dejando el nombre de la sección. Ej: "Mikine Profesionales" a "Profesionales".
+2- Agregué etiqueta <meta name="description"> a todas las páginas de la web.
+3- Agregué <meta name="keywords"> a todas las páginas de la web. Estuve investigando y parece que ya no es relevante y hasta su mal uso se penaliza, pero en la tarjeta la pedían.
+4- Agregué sitemap.
+5- Modifiqué etiquetas H1/H2 siguiendo la jerarquía correspondiente.
+6- Optimización de imágenes a través de su compresión. Control de etiquetas alt.
+
