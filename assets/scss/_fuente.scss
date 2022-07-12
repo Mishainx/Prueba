@@ -1,0 +1,30 @@
+/*Fuente*/
+@font-face {
+    font-family: "myriad";
+    src: url(../font/myriad.ttf);
+}
+
+/*Iconos*/
+@import url(../icofont/icofont.min.css);
+
+$color-b: #1e4356;
+$color-w: white;
+$color-s: #f3f8fa;
+$tipografia: "myriad";
+$background-b: linear-gradient(125deg, rgba(30,67,86,1) 0%, rgba(24,114,161,1) 97%);
+$shadow: 0px 10px 14px -7px #1e4356;
+
+.font{
+    font-family: $tipografia;
+    color: $color-w;    
+}
+
+.font-b{
+    font-family: $tipografia;
+    color: $color-b;    
+}
+
+.box-shadow{
+    box-shadow: $shadow;
+    border-radius:5px;
+}

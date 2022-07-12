@@ -1,0 +1,17 @@
+/*Contacto*/
+.font-b a{
+    color: $color-b;
+}
+
+.titulo-contacto{
+    color: $color-w;
+    background:$background-b;
+    width: 100%;
+    text-align: center;
+}
+
+.borde{
+    border-radius: 75%;
+    border-style: dotted;
+    padding: 8px;    
+}

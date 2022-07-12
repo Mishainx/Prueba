@@ -1,0 +1,36 @@
+/*Profesionales*/
+
+@mixin letras ($fuente-letra,$color-letra,$fondo,$sombreado){
+    font-family: $fuente-letra;
+    color: $color-letra;   
+    background-color: $fondo;
+    box-shadow: $sombreado;
+}
+    
+$estilos:(
+    azul:#1e4356,
+    blanco:white,
+    celeste:#f3f8fa,
+    gradiente: linear-gradient(125deg, rgba(30,67,86,1) 0%, rgba(24,114,161,1) 97%),
+    sombra: 0px 10px 14px -7px #1e4356,
+);
+
+.titulo-profesionales{
+    @include letras(myriad,"",(map-get($map:$estilos , $key:celeste )),"")
+}
+
+.letra{
+    @include letras(myriad,(map-get($map:$estilos , $key:azul )),"",(map-get($map:$estilos , $key:sombra )));
+    .bg{
+        background: map-get($map: $estilos, $key: gradiente );
+        height: 110px;
+        margin-bottom: 110px;
+    }
+}
+
+.extendido{
+    @extend .letra;
+        .extendido-2{
+            @extend .bg
+        }
+}
