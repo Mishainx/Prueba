@@ -247,4 +247,7 @@
     width: 100%;
     background: linear-gradient(125deg, rgb(30, 67, 86) 0%, rgb(24, 114, 161) 97%);
   }
+  .efecto-o:hover {
+    opacity: 0.9;
+  }
 }/*# sourceMappingURL=style.css.map */
