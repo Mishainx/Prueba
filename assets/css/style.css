@@ -219,7 +219,7 @@
 
 /*Footer*/
 .footer-color {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   background: linear-gradient(125deg, rgb(30, 67, 86) 0%, rgb(24, 114, 161) 97%);
   color: white;
