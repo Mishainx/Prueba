@@ -1,6 +1,5 @@
 .turnero{
-height: 100vh;
-width: 100vw;
-overflow: hidden;
+    height: calc(100vh - 0) !important;
+    width: 100% !important;
 
 }

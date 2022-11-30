@@ -212,9 +212,8 @@
 }
 
 .turnero {
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
+  height: calc(100vh - 95px) !important;
+  width: 100% !important;
 }
 
 /*Footer*/
